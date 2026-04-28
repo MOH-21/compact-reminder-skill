@@ -33,7 +33,7 @@ Written on start, read on every wake. This is the only way to carry state across
 
 2. Read `~/.claude/skills/auto-compact/config.json` using the Read tool. Use `interval` value. If file missing or unreadable, default to 300s.
 
-3. Send PushNotification: "Context growing — run /compact to stay efficient"
+3. Send PushNotification: "Context growing — run /compact to manage usage"
 
 4. Output in conversation:
    > **[auto-compact]** Context growing. Run `/compact` to compact now.
