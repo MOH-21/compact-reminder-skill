@@ -21,6 +21,7 @@ Interval is saved to `~/.claude/skills/auto-compact/config.json` and persists ac
 ## What it does
 
 - Sends a **push notification** to your phone/desktop and posts an in-chat nudge each interval
+    - You can comment it out in Skills.md if you do not want push notifications.  
 - **Silent during plan mode** — zero output, zero interruption while you're planning. Resumes nudging when plan mode ends
 - Never runs `/compact` automatically — that's a runtime command only you can invoke
 - Stop anytime: `stop auto-compact`
